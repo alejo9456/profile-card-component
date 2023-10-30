@@ -5,16 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
+  <main class="container">
+    <figure class="card">
+      <picture class="card-top">
+        <img class="card-avatar" src="./images/image-victor.jpg" alt="User Image">
+      </picture>
+      <figcaption class="card-middle">
+        <h1 class="card-name">Victor Crest <span>26</span></h1>
+        <p class="card-location">London</p>
+      </figcaption>
+      <footer class="card-bottom">
+        <p class="card-social">80K<span>Followers</span></p>
+        <p class="card-social">803K<span>Likes</span></p>
+        <p  class="card-social">1.4K<span>Photos</span></p>
+      </footer>
+    </figure>
+  </main>
+
+  
 </body>
 </html>
